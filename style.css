@@ -1,0 +1,23 @@
+@font-face {
+    font-family: yekan;
+    src: url(font/iranyekanwebbold.ttf);
+}
+*{
+    font-family: yekan;
+}
+.card{
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+    
+
+  }
+    
+
+
+.card:hover{
+
+    box-shadow: rgba(159, 164, 19, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.1);
+}
+
